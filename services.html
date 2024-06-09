@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="true">
+  <title>Serenitiq Counselling | Services</title>
+  <link rel="stylesheet" href="mhealth.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .services-section {
+      margin-top: 20px;
+      padding: 20px;
+    }
+    .service-item {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-bottom: 30px;
+      align-items: center;
+    }
+    .service-item img {
+      width: 40%;
+      height: auto;
+      border-radius: 10px;
+      margin-left: 20px;
+    }
+    .service-content {
+      width: 60%;
+      padding: 15px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .service-content ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .service-content ul li {
+      margin-bottom: 10px;
+    }
+    .service-content ul li::before {
+      content: "\2714";
+      color: green;
+      margin-right: 10px;
+    }
+    .faq-section {
+      margin-top: 40px;
+    }
+    .faq-title {
+      cursor: pointer;
+      background-color: #f1f1f1;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .faq-content {
+      display: none;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $(".faq-title").click(function() {
+        $(this).next(".faq-content").slideToggle();
+      });
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="open">
+        <a href="#">
+          <p><b>Serenitiq Counselling</b></p>
+        </a>
+      </div>
+      <div class="menu">
+        <p><a href="./phone.html"><b><i class="fa fa-phone">Call Us On</i></b></a></p>
+        <a href="./index.html">Home</a>
+        <a href="./aboutUs.html">About Us</a>
+        <a href="./services.html">Services</a>
+        <a href="./resources.html">Resources</a>
+        <!-- <a href="">Sponsors</a> -->
+        <a href="./signIn.html"><button>Sign In</button></a>
+      </div>
+    </div>
+  </header>
+  <div class="container services-section">
+    <h1>Our Services</h1>
+    <div class="service-item">
+      <img src="asdasdasdasd.jpg" alt="Individual Counseling">
+      <div class="service-content">
+        <h3>Individual Counseling</h3>
+        <p>Our individual counseling sessions provide personalized support tailored to meet your unique needs. Our professional counselors work with you one-on-one to address personal challenges and improve your mental health and well-being.</p>
+        <ul>
+          <li>Confidential one-on-one sessions</li>
+          <li>Personalized treatment plans</li>
+          <li>Flexible scheduling</li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-item">
+      <img src="gayocunselling.jpg" alt="Group Therapy">
+      <div class="service-content">
+        <h3>Group Therapy</h3>
+        <p>Group therapy sessions offer a supportive environment where individuals can share their experiences and learn from others. Our group sessions focus on various topics, providing a safe space for open discussion and mutual support.</p>
+        <ul>
+          <li>Supportive group environment</li>
+          <li>Facilitated by experienced therapists</li>
+          <li>Focus on various mental health topics</li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-item">
+      <img src="couplecoun.jpg" alt="Couples Counseling">
+      <div class="service-content">
+        <h3>Couples Counseling</h3>
+        <p>Couples counseling helps partners improve their relationships by addressing issues such as communication, trust, and conflict resolution. Our experienced counselors guide couples through constructive conversations and exercises to strengthen their bond.</p>
+        <ul>
+          <li>Improved communication skills</li>
+          <li>Conflict resolution strategies</li>
+          <li>Enhanced relationship satisfaction</li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-item">
+      <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd" alt="Family Therapy">
+      <div class="service-content">
+        <h3>Family Therapy</h3>
+        <p>Family therapy sessions aim to improve communication and resolve conflicts within families. Our therapists work with family members to understand their dynamics and develop strategies to enhance their relationships and support one another.</p>
+        <ul>
+          <li>Improved family communication</li>
+          <li>Conflict resolution techniques</li>
+          <li>Support for all family members</li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-item">
+      <img src="adolcoun.jpg" alt="Child and Adolescent Therapy">
+      <div class="service-content">
+        <h3>Child and Adolescent Therapy</h3>
+        <p>Our child and adolescent therapy services focus on addressing the unique challenges faced by young individuals. Our therapists use age-appropriate techniques to help children and teenagers navigate their emotions and develop healthy coping skills.</p>
+        <ul>
+          <li>Age-appropriate therapy techniques</li>
+          <li>Support for emotional and behavioral issues</li>
+          <li>Parent involvement and guidance</li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-item">
+      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Online Counseling">
+      <div class="service-content">
+        <h3>Online Counseling</h3>
+        <p>Our online counseling services offer flexibility and convenience for those who prefer virtual sessions. You can connect with our professional counselors from the comfort of your home, ensuring you receive the support you need, no matter where you are.</p>
+        <ul>
+          <li>Flexible virtual sessions</li>
+          <li>Confidential and secure</li>
+          <li>Accessible from anywhere</li>
+        </ul>
+      </div>
+    </div>
+    <div class="service-item">
+      <img src="crisifidsf.jpg" alt="Crisis Intervention">
+      <div class="service-content">
+        <h3>Crisis Intervention</h3>
+        <p>Our crisis intervention services are available for individuals experiencing acute mental health crises. We provide immediate support and resources to help stabilize the situation and ensure the individual's safety and well-being.</p>
+        <ul>
+          <li>Immediate support</li>
+          <li>Resource linkage</li>
+          <li>Stabilization strategies</li>
+        </ul>
+      </div>
+    </div>
+    <div class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-title">What is individual counseling?</div>
+      <div class="faq-content">
+        <p>Individual counseling involves one-on-one sessions with a professional counselor to address personal challenges and improve mental health and well-being.</p>
+      </div>
+      <div class="faq-title">How can group therapy help me?</div>
+      <div class="faq-content">
+        <p>Group therapy provides a supportive environment where individuals can share their experiences, learn from others, and receive support from peers and therapists.</p>
+      </div>
+      <div class="faq-title">What should I expect from couples counseling?</div>
+      <div class="faq-content">
+        <p>Couples counseling focuses on improving communication, resolving conflicts, and strengthening relationships through guided conversations and exercises.</p>
+      </div>
+      <div class="faq-title">How does family therapy work?</div>
+      <div class="faq-content">
+        <p>Family therapy involves working with family members to improve communication, resolve conflicts, and enhance their relationships and support systems.</p>
+      </div>
+      <div class="faq-title">What is child and adolescent therapy?</div>
+      <div class="faq-content">
+        <p>Child and adolescent therapy addresses the unique challenges faced by young individuals using age-appropriate techniques to help them navigate their emotions and develop healthy coping skills.</p>
+      </div>
+      <div class="faq-title">How do online counseling sessions work?</div>
+      <div class="faq-content">
+        <p>Online counseling sessions are conducted virtually, allowing individuals to connect with professional counselors from the comfort of their homes.</p>
+      </div>
+      <div class="faq-title">What topics are covered in workshops and seminars?</div>
+      <div class="faq-content">
+        <p>Our workshops and seminars cover a variety of topics related to mental health, wellness, and personal development, providing valuable insights and practical tools.</p>
+      </div>
+      <div class="faq-title">What is crisis intervention?</div>
+      <div class="faq-content">
+        <p>Crisis intervention provides immediate support and resources for individuals experiencing acute mental health crises to stabilize the situation and ensure safety.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="ring">
+      <a href="./callBack.html">Want us to call you back?</a>
+    </div>
+    <hr>
+    <div class="footer-section">
+      <div>
+        <a href="./faq.html">FAQ</a>
+      </div>
+      <div class="social">
+        <div class="social-icon">
+          <a href="http://twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-icon">
+          <a href="https://www.linkedin.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-icon">
+          <a href="https://accounts.google.com"><i class="fa fa-google" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-icon">
+          <a href="https://m.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-icon">
+          <a href="https://www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-icon">
+          <a href="https://www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </div>
+      </div>
+      <div class="call-back">
+        <a href="./contact.html">Contact Us</a> 
+      </div>
+      <div>
+        <a href="./sponsor.html">Sponsor?</a>
+      </div>
+      <div class="send-chat">
+        <a><i class="fa fa-comment"></i>Chat with an expert</a>
+      </div>
+    </div>
+    
+    <div class="send-mail">
+      <a href="https://mail.google.com"><i class="fa fa-envelope"></i>Mail</a> 
+    </div>
+  </footer>
+</body>
+</html>
